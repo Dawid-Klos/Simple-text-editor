@@ -1,13 +1,32 @@
 @import "~normalize.css";
-
 @import "_variables";
 @import "modules/hello.scss";
 
 body {
   background: $wtf;
   color: #fff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh;
+
+}
+
+.header {
+  position: fixed;
+  left: 35%;
+  right: 35%;
+  &__title {
+    letter-spacing: .4em;
+    font-family: 'Akronim', Sans-serif;
+  }
+}
+.text-editor {
+
+    &__img {
+
+  }
+    &__title {
+       letter-spacing: .4em;
+       font-family: 'Abril Fatface', Sans-serif;
+  }
+    &__textarea {
+
+  }
 }
