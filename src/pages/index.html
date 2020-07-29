@@ -14,8 +14,7 @@
       <h1 class="header__title">Dawid Kłos - Text editor</h1>
 
     </header>
-    <div class="text-editor">
-
+    <main class="text-editor">
       <svg class="text-editor__img" width="109" height="99" viewBox="0 0 109 99" fill="none" xmlns="http://www.w3.org/2000/svg">
         <g filter="url(#filter0_d)">
         <path d="M63.8558 37.2075L68.0342 41.0025L26.8867 78.375H22.7083V74.58L63.8558 37.2075ZM80.2058 12.375C79.0704 12.375 77.8896 12.7875 77.0267 13.5712L68.7154 21.12L85.7467 36.5887L94.0579 29.04C95.8292 27.4312 95.8292 24.8325 94.0579 23.2238L83.4304 13.5712C82.5221 12.7462 81.3867 12.375 80.2058 12.375ZM63.8558 25.5338L13.625 71.1562V86.625H30.6563L80.8871 41.0025L63.8558 25.5338Z" fill="white"/>
@@ -32,14 +31,13 @@
         </filter>
         </defs>
         </svg>
-
-      <h2 class="text-editor__title">My simple text editor</h2>
-      
-      <textarea class="text-editor__textarea">Start typing here...</textarea>
-      
-      <button></button>
-      <button></button>
-    </div>
+      <label class="text-editor__title" for="text">MY SIMPLE TEXT EDITOR</label>
+      <textarea class="text-editor__textarea" name="text" rows="20" cols="60">Start typing here...</textarea>
+      <div class="text-editor__buttons">
+      <button class="text-editor__load" type="button"></button>
+      <button class="text-editor__save" type="button"></button>
+      </div>
+      </main>
 
 
   </body>
