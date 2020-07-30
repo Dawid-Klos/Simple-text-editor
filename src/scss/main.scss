@@ -32,13 +32,15 @@ body {
     &__img {
       margin-left: -142px;
       margin-bottom: -36px;
+
   }
     &__title {
        font-style: normal;
        font-size: 44px;
        font-weight: 600;
        line-height: 64px;
-
+       text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+       
   }
     &__textarea {
       display: block;
