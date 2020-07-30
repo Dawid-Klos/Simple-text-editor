@@ -5,6 +5,7 @@
 body {
   /*background: $wtf;*/
   background: #552691;
+ 
   font-family: 'Open Sans', 'Sans-serif';
   color: #fff;
   display: flex;
@@ -15,37 +16,37 @@ body {
 
 .header {
   &__title {
+    display: none;
     text-align: center;
     letter-spacing: .2em;
     font-size: 40px;
     font-family: 'Akronim', Sans-serif;
     text-shadow: 0px 7px 4px rgba(150, 150, 150, 1);
-  }
+   }
 }
 .text-editor {
-  margin-top: 100px;
+  margin-top: -40px;
   padding: 32px;
     &__buttons {
       text-align: center;
       margin-top: 16px;
     }
     &__img {
-      margin-left: -142px;
-      margin-bottom: -36px;
-
+      margin-left: -100px;
   }
     &__title {
        font-style: normal;
        font-size: 44px;
        font-weight: 600;
-       line-height: 64px;
+       line-height: 96px;
+       margin-left: -42px;
        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-       
   }
     &__textarea {
       display: block;
-      width: 682px;
-      border-radius: 4px;
+      width: 650px;
+      height: 300px;
+      border-radius: 5px;
   }
     &__load {
       background: #121232;
@@ -70,5 +71,11 @@ body {
       height: 40px;
       margin: 16px;
       border-radius: 4px;
+    }
+    &__typewriter {
+      width: 500px;
+      height: 440px;
+      margin-top: -72px;
+      margin-left: 76px;
     }
 }
