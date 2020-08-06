@@ -32,21 +32,32 @@ body {
       margin-top: 16px;
     }
     &__img {
-      margin-left: -100px;
+      margin-left: -600px;
   }
     &__title {
        font-style: normal;
        font-size: 44px;
        font-weight: 600;
        line-height: 96px;
-       margin-left: -42px;
+       margin-left: -40px;
        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   }
     &__textarea {
       display: block;
-      width: 650px;
-      height: 300px;
+      width: 450px;
+      height: 400px;
+      margin: 0 auto;
+      margin-top: -130px;
       border-radius: 5px;
+      box-shadow:
+      0 1.1px 0.8px rgba(0, 0, 0, 0.052),
+      0 2.5px 1.8px rgba(0, 0, 0, 0.075),
+      0 4.5px 3.2px rgba(0, 0, 0, 0.092),
+      0 7.5px 5.3px rgba(0, 0, 0, 0.108),
+      0 12.4px 8.7px rgba(0, 0, 0, 0.125),
+      0 21.7px 15.3px rgba(0, 0, 0, 0.148),
+      0 47px 33px rgba(0, 0, 0, 0.2)
+    ;
   }
     &__load {
       background: #121232;
@@ -73,9 +84,9 @@ body {
       border-radius: 4px;
     }
     &__typewriter {
-      width: 500px;
-      height: 440px;
-      margin-top: -72px;
-      margin-left: 76px;
+      width: 700px;
+      height: 640px;
+      margin-top: -190px;
+      margin-left: -6px;
     }
 }
