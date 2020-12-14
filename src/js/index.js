@@ -17,3 +17,4 @@ save.addEventListener('click', () => {
 load.addEventListener('click', () => {
     text.value = localStorage.getItem('text');
 });
+

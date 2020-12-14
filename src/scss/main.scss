@@ -5,7 +5,6 @@
 body {
   /*background: $wtf;*/
   background: #552691;
- 
   font-family: 'Open Sans', 'Sans-serif';
   color: #fff;
   display: flex;
@@ -22,65 +21,93 @@ body {
     font-size: 40px;
     font-family: 'Akronim', Sans-serif;
     text-shadow: 0px 7px 4px rgba(150, 150, 150, 1);
-   }
+  }
 }
+
 textarea:focus {
   outline: none;
 }
+
 .text-editor {
-  margin-top: 8px;
+  margin-top: 36px auto;
   padding: 32px;
-    &__buttons {
-      text-align: center;
-      margin-top: 16px;
-    }
-    &__img {
-      margin-left: -600px;
+
+  &__buttons {
+    text-align: center;
+    margin-top: 16px;
   }
-    &__title {
-       font-style: normal;
-       font-size: 44px;
-       font-weight: 600;
-       line-height: 96px;
-       margin-left: -40px;
-       text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+  &__img {
+    margin-left: -180px;
+    margin-top: -200px;
+    width: 200px;
+    height: 260px;
+    transition: opacity .5s ease-in-out;
+    opacity: 1;
+
+    &:hover {
+      opacity: .4;
+    }
   }
-    &__textarea {
-      display: block;
-      width: 340px;
-      height: 360px;
-      padding: 16px;
-      margin: 0 auto;
-      margin-top: -130px;
-      border-radius: 5px;
+
+  &__title {
+    font-style: normal;
+    font-size: 66px;
+    font-weight: 600;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   }
-    &__load {
-      background: #121232;
-      color: #FFFFFF;
-      font-weight: 600;
-      font-size: 14px;
-      line-height: 16px;
-      letter-spacing: .2em;
-      width: 99px;
-      height: 40px;
-      margin: 16px;
-      border-radius: 4px;
-    }
-    &__save {
-      background: #FAFAFC;
-      color: #121323;
-      font-weight: 600;
-      font-size: 14px;
-      line-height: 16px;
-      letter-spacing: .2em;
-      width: 99px;
-      height: 40px;
-      margin: 16px;
-      border-radius: 4px;
-    }
-    &__typewriter {
-      width: 500px;
-      height: 480px;
-      margin-top: -140px;
-    }
+
+  &__textarea {
+    display: block;
+    width: 340px;
+    height: 360px;
+    padding: 16px;
+    margin: 0 auto;
+    border-radius: 5px;
+  }
+
+  &__label {
+    border: 0;
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px, 1px, 1px, 1px);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  }
+
+  &__load {
+    background: #121232;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: .2em;
+    width: 99px;
+    height: 40px;
+    margin: 16px;
+    border-radius: 4px;
+  }
+
+  &__save {
+    background: #FAFAFC;
+    color: #121323;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: .2em;
+    width: 99px;
+    height: 40px;
+    margin: 16px;
+    border-radius: 4px;
+  }
+
+  &__typewriter {
+    width: 500px;
+    height: 520px;
+    margin-top: -140px;
+    margin-left: 86px;
+  }
 }

@@ -10,17 +10,14 @@
 
   <!-- Title -->
   <meta property="og:title" content="Simple text editor" />
-  <!-- OPTIONAL description. 2-4 sentences. -->
   <meta
     property="og:description"
     content="Create and save your text whenever you want."
   />
-  <!-- full url with http(s) ie. https://maciejkorsan.github.io/my-repo/ -->
   <meta
     property="og:url"
     content="https://dawid-klos.github.io/Simple-text-editor/"
   />
-  <!-- full url to the image with http(s) ie. https://maciejkorsan.github.io/my-repo/assets/img/fb.png. Facebook suggests at least 1200 x 630. -->
   <meta
     property="og:image"
     content="https://dawid-klos.github.io/Simple-text-editor/og.png"
@@ -31,7 +28,7 @@
   <link rel="apple-touch-icon" sizes="180x180" href="pwa/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="pwa/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="pwa/favicon-16x16.png">
-  <link rel="manifest" href="/site.webmanifest">
+  <link rel="manifest" href="/site.webmanifest" crossorigin="use-credentials">
   <meta name="apple-mobile-web-app-capable" content="yes" />
 
   </head>
@@ -42,8 +39,9 @@
 
     </header>
     <main class="text-editor">
+      <h1 class="text-editor__title">My simple text editor</h1>
       <img src="..//assets/img/pencil.svg" class="text-editor__img" alt="Image of pencil" />
-      <label class="text-editor__title" for="text">My simple text editor</label>
+      <label class="text-editor__label" for="text">It's a textarea for text editor</label>
       <textarea class="text-editor__textarea text-editor__textarea--js" name="text" rows="20" placeholder="Start typing here..." ></textarea>
       <img class="text-editor__typewriter" src="..//assets/img/typewriter.png" alt="Image of a Typewriter">
       <div class="text-editor__buttons">
